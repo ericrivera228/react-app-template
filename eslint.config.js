@@ -35,7 +35,9 @@ export default tseslint.config(
       'react/jsx-curly-newline':[ 'error', {
         multiline: 'consistent',
         singleline: 'consistent'
-      }]
+      }],
+      'react/button-has-type': 2,
+      'react/no-array-index-key': 2,
     },
   },
 )
