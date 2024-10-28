@@ -32,6 +32,13 @@ export default tseslint.config(
       ],
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
+      
+      // Typescript rules
+      'no-unused-vars': 'warn',
+      'quotes': ['error', 'single'],
+      'semi': [2, 'always'],
+
+      // React rules
       'react/jsx-curly-newline':[ 'error', {
         multiline: 'consistent',
         singleline: 'consistent'
