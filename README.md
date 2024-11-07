@@ -1,4 +1,4 @@
-# App Template
+# React App Template
 
 To run:
 ```
